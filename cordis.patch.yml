@@ -1,0 +1,9 @@
+# DSH profile layer: mounts this language pack as a loader row.
+#
+# Installing the package into a profile (`dsh plugin --profile web add <spec>`)
+# selects this bundle, and DSH reads this file from it. The relative entry is
+# anchored here.
+
+- insert:
+    - id: dsh-locale-pt-br
+      name: './index.js'

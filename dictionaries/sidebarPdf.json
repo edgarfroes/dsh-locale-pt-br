@@ -1,0 +1,17 @@
+{
+  "failed": "Não é possível exibir o PDF: {message}",
+  "loading": "Lendo…",
+  "pageImage": "Página {page} do PDF",
+  "password": "Este PDF exige senha; não há suporte para pré-visualizar arquivos protegidos por senha.",
+  "rendering": "Renderizando a página…",
+  "retry": "Tentar novamente",
+  "title": "PDF",
+  "unsupported": "A pré-visualização de PDF precisa do conteúdo completo do arquivo.",
+  "workerFailed": "O processo de renderização do PDF não pôde continuar. Tente novamente.",
+  "zoomControls": "Controles de zoom",
+  "zoomFitWidth": "Ajustar à largura",
+  "zoomIn": "Aumentar zoom",
+  "zoomMenu": "Escolher zoom",
+  "zoomOut": "Diminuir zoom",
+  "zoomValue": "{percent}%"
+}

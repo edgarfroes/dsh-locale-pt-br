@@ -1,0 +1,16 @@
+{
+  "description": "Limite por quanto tempo cada comando pode rodar e quanto pode gerar de saída.",
+  "invalidNumber": "Digite um número ou deixe em branco para usar o padrão.",
+  "maxOutputBytes": "Limite de saída por fluxo (bytes)",
+  "maxOutputBytesHint": "A saída além deste limite vai para um arquivo temporário em vez de se perder.",
+  "overridden": "Sobrescrito",
+  "readOnly": "Esta implantação guarda as configurações como somente leitura.",
+  "reset": "Restaurar padrão",
+  "save": "Salvar",
+  "saveFailed": "A implantação não aceitou estes valores; eles foram mantidos para você corrigir.",
+  "saving": "Salvando…",
+  "timeoutMs": "Tempo limite do comando (ms)",
+  "timeoutMsHint": "Quanto tempo um comando pode rodar antes de ser encerrado.",
+  "title": "Shell",
+  "unavailable": "Este plugin não está carregado, então não pode ser configurado agora."
+}

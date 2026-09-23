@@ -1,0 +1,23 @@
+{
+  "chrome.collapse": "Recolher barra lateral",
+  "chrome.collapseAria": "Recolher a barra lateral direita",
+  "chrome.exitFullscreen": "Sair da tela cheia",
+  "chrome.expand": "Abrir barra lateral",
+  "chrome.expandAria": "Abrir a barra lateral direita",
+  "chrome.toFullscreen": "Tela cheia",
+  "dock.addTab": "Nova aba",
+  "dock.closeFloat": "Fechar",
+  "dock.closeTab": "Fechar",
+  "dock.dockFloat": "Devolver à barra lateral",
+  "dock.drop.bottom": "Dividir embaixo",
+  "dock.drop.center": "Mover para cá",
+  "dock.drop.left": "Dividir à esquerda",
+  "dock.drop.right": "Dividir à direita",
+  "dock.drop.top": "Dividir em cima",
+  "dock.emptyPane": "Painel vazio",
+  "dock.splitPane": "Dividir",
+  "dock.splitPaneDisabled": "O limite é de dois painéis",
+  "dock.splitPaneNarrow": "Largura insuficiente para dividir; alargue a barra lateral",
+  "tab.guide.title": "Início",
+  "tab.unavailable": "Ainda não há nada aqui que exiba este tipo de conteúdo."
+}

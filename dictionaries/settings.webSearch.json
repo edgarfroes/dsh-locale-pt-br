@@ -1,0 +1,20 @@
+{
+  "apiKey": "Chave de API",
+  "apiKeyHint": "Guardada fora do arquivo de configurações. Deixe em branco para manter a chave atual.",
+  "apiKeySet": "Há uma chave configurada.",
+  "apiKeyUnset": "Nenhuma chave configurada; a busca fica indisponível até que uma seja definida.",
+  "baseUrl": "Endpoint",
+  "baseUrlHint": "Deixe em branco para usar o padrão do provedor.",
+  "description": "Configure o provedor de busca da DeepSeek.",
+  "invalidNumber": "Digite um número ou deixe em branco para usar o padrão.",
+  "maxUses": "Máximo de buscas por requisição",
+  "maxUsesHint": "Quantas vezes uma requisição pode buscar antes de precisar responder.",
+  "overridden": "Sobrescrito",
+  "readOnly": "Esta implantação guarda as configurações como somente leitura.",
+  "reset": "Restaurar padrão",
+  "save": "Salvar",
+  "saveFailed": "A implantação não aceitou estes valores; eles foram mantidos para você corrigir.",
+  "saving": "Salvando…",
+  "title": "Busca na web",
+  "unavailable": "Este plugin não está carregado, então não pode ser configurado agora."
+}

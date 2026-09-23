@@ -1,0 +1,15 @@
+{
+  "browser.cancel": "Cancelar",
+  "browser.create": "Criar",
+  "browser.createIn": "Nova pasta em \"{name}\"",
+  "browser.editPath": "Editar caminho",
+  "browser.folderName": "Nome da pasta",
+  "browser.home": "Início",
+  "browser.loading": "Carregando…",
+  "browser.newFolder": "Nova pasta",
+  "browser.open": "Abrir",
+  "browser.showHidden": "Mostrar arquivos ocultos",
+  "browser.title": "Selecionar diretório do workspace",
+  "browser.truncated": "Pastas demais para listar; apenas o início é exibido.",
+  "browser.untitledFolder": "Pasta sem título"
+}

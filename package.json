@@ -1,0 +1,51 @@
+{
+  "name": "dsh-locale-pt-br",
+  "version": "0.1.0",
+  "description": "Brazilian Portuguese (pt-BR) language pack for the DeepSeek Harness Web UI: adds Português (Brasil) to Settings → General → Language.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": { "default": "./index.js" },
+    "./client": { "default": "./lib/client.js" },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "extract": "node scripts/extract.mjs",
+    "test": "node --test",
+    "prepack": "node scripts/build.mjs --verify && node scripts/check.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "peerDependencies": { "@deepseek-ai/cordis": "^4.0.1" },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-locale"]
+    },
+    "market": {
+      "category": "ui",
+      "description": {
+        "en": "Adds Brazilian Portuguese (pt-BR) to the DeepSeek Harness Web UI. Every official locale namespace translated; new upstream strings fall back to English. No network calls, no model calls.",
+        "zh": "为 DeepSeek Harness Web UI 新增巴西葡萄牙语（pt-BR）。官方界面命名空间逐条翻译，上游新增字串自动回退英文。不发起网络请求，不调用模型。",
+        "pt-BR": "Adiciona português do Brasil (pt-BR) à interface web do DeepSeek Harness. Todos os namespaces oficiais traduzidos; textos novos do upstream caem para o inglês. Sem chamadas de rede nem de modelo."
+      }
+    }
+  },
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "cordis", "i18n", "locale", "localization", "portuguese", "pt-br", "brasil"],
+  "repository": { "type": "git", "url": "git+https://github.com/edgarfroes/dsh-locale-pt-br.git" },
+  "homepage": "https://github.com/edgarfroes/dsh-locale-pt-br#readme",
+  "bugs": { "url": "https://github.com/edgarfroes/dsh-locale-pt-br/issues" }
+}

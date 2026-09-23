@@ -1,0 +1,18 @@
+{
+  "autoRefresh": "Atualização automática",
+  "autoRefresh.disable": "Desativar atualização automática",
+  "autoRefresh.enable": "Ativar atualização automática",
+  "empty": "Diretório vazio",
+  "entry.other": "Não é arquivo nem diretório, então não pode ser aberto.",
+  "error.notDirectory": "Isso não é um diretório.",
+  "error.notFound": "Esse diretório não existe mais. Ele pode ter sido movido ou excluído.",
+  "error.outsideWorkspace": "Esse diretório fica fora do workspace, então a barra lateral não vai lê-lo.",
+  "error.unavailable": "Falha na leitura: {message}",
+  "guide.description": "Navegar pelos arquivos do workspace desta sessão",
+  "guide.title": "Arquivos do workspace",
+  "loading": "Lendo…",
+  "noWorkspace": "Esta sessão não tem diretório de workspace.",
+  "reload": "Recarregar",
+  "truncated": "Itens demais; mostrando só uma parte.",
+  "type.label": "Arquivos"
+}

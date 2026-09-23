@@ -1,0 +1,20 @@
+{
+  "frequency.every": "A cada {value} {unit}",
+  "frequency.once": "Uma vez",
+  "list.aria": "Lembretes ativos",
+  "relative.future": "em {value} {unit}",
+  "relative.now": "Para agora",
+  "relative.overdue": "{value} {unit} de atraso",
+  "status.overdue": "Atrasado",
+  "status.scheduled": "Agendado",
+  "trigger.one": "{count} lembrete",
+  "trigger.other": "{count} lembretes",
+  "unit.day.one": "dia",
+  "unit.day.other": "dias",
+  "unit.hour.one": "hora",
+  "unit.hour.other": "horas",
+  "unit.minute.one": "minuto",
+  "unit.minute.other": "minutos",
+  "unit.second.one": "segundo",
+  "unit.second.other": "segundos"
+}

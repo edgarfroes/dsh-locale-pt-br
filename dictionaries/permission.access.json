@@ -1,0 +1,19 @@
+{
+  "auto.badge": "EXP",
+  "auto.confirm.acknowledge": "Entendo esses riscos e quero continuar",
+  "auto.confirm.description": "A revisão automática roda sem sandbox. Antes de cada chamada de ferramenta nativa e de cada chamada interna de PTC, o mesmo modelo do agente atual avalia se deve permiti-la. Este recurso é experimental, pode permitir ou negar ações por engano e consome tokens adicionais.",
+  "auto.confirm.enable": "Ativar revisão automática",
+  "auto.confirm.title": "Ativar a revisão automática (experimental)?",
+  "auto.description": "Roda sem sandbox, após uma revisão experimental, pelo mesmo modelo, de cada chamada de ferramenta nativa e chamada interna de PTC.",
+  "auto.label": "Revisão automática",
+  "close": "Fechar",
+  "confirm.acknowledge": "Entendo os riscos e quero continuar",
+  "confirm.cancel": "Cancelar",
+  "confirm.description": "O acesso total reduz as etapas de confirmação e permite que o agente execute mais ações diretamente, incluindo operações sensíveis, alterações em arquivos ou comandos externos. Use apenas quando você confiar na tarefa atual.",
+  "confirm.enable": "Ativar acesso total",
+  "confirm.title": "Ativar acesso total?",
+  "mode": "Modo de acesso, atual: {name}",
+  "preset.fullAccess": "Acesso total",
+  "preset.readOnly": "Somente leitura",
+  "preset.workspaceWrite": "Escrita no workspace"
+}
