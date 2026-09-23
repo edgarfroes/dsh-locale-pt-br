@@ -18,7 +18,7 @@ Adds *Português (Brasil)* to **Settings → General → Language**.
 Take the `.tgz` URL from the [latest release](https://github.com/edgarfroes/dsh-locale-pt-br/releases/latest) and run:
 
 ```bash
-dsh plugin --profile web add https://github.com/edgarfroes/dsh-locale-pt-br/releases/download/v0.1.0/dsh-locale-pt-br-0.1.0.tgz
+dsh plugin --profile web add https://github.com/edgarfroes/dsh-locale-pt-br/releases/download/v0.1.1/dsh-locale-pt-br-0.1.1.tgz
 ```
 
 Or, in the Web UI, **Plugins → Add plugin** and paste the same URL. Then pick

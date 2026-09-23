@@ -18,7 +18,7 @@ Adiciona *Português (Brasil)* em **Configurações → Geral → Idioma**.
 Pegue o endereço do `.tgz` da [última versão](https://github.com/edgarfroes/dsh-locale-pt-br/releases/latest) e rode:
 
 ```bash
-dsh plugin --profile web add https://github.com/edgarfroes/dsh-locale-pt-br/releases/download/v0.1.0/dsh-locale-pt-br-0.1.0.tgz
+dsh plugin --profile web add https://github.com/edgarfroes/dsh-locale-pt-br/releases/download/v0.1.1/dsh-locale-pt-br-0.1.1.tgz
 ```
 
 Ou, na interface web, **Plugins → Adicionar plugin** e cole o mesmo endereço.

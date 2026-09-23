@@ -44,10 +44,21 @@ window.__ModuleLoader__.load({
     Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" })
     exports.inject = ["locale"]
     exports.apply = function apply(ctx) {
-      ctx.effect(
-        () => ctx.locale.addLanguage(${JSON.stringify(LANGUAGE)}),
-        "${PLUGIN_ID}: language",
-      )
+      // Another plugin (for example a pack installed in the user's own profile)
+      // may already provide ${LANGUAGE.id}. dsh refuses a second definition, so
+      // this pack then stays inactive instead of failing the page's boot.
+      let provided = true
+      ctx.effect(() => {
+        try {
+          return ctx.locale.addLanguage(${JSON.stringify(LANGUAGE)})
+        } catch (error) {
+          if (!/already registered/.test(String(error && error.message))) throw error
+          provided = false
+          console.warn("${PLUGIN_ID}: another plugin already provides ${LANGUAGE.id}; this pack stays inactive")
+          return () => {}
+        }
+      }, "${PLUGIN_ID}: language")
+      if (!provided) return
       const dictionaries = ${JSON.stringify(dictionaries, null, 2).replace(/\n/g, '\n      ')}
       for (const ns of Object.keys(dictionaries)) {
         ctx.effect(

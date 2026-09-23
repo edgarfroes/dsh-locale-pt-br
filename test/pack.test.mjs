@@ -10,19 +10,26 @@ import { extractAll } from '../scripts/extract.mjs'
 const clientSource = readFileSync(join(ROOT, 'lib', 'client.js'), 'utf8')
 const baseline = JSON.parse(readFileSync(join(ROOT, 'data', 'en.json'), 'utf8'))
 
-/** Load lib/client.js the way dsh's ModuleLoader does, with a recording ctx. */
-function loadClient() {
+/** Load lib/client.js the way dsh's ModuleLoader does, with a recording ctx.
+ * `taken`: the language is already registered by another plugin. */
+function loadClient({ taken = false } = {}) {
   let entry
+  const warnings = []
   // No fetch, storage, XHR or WebSocket in the sandbox: touching one throws.
-  const sandbox = { window: { __ModuleLoader__: { load(e) { entry = e } } } }
+  const sandbox = { window: { __ModuleLoader__: { load(e) { entry = e } } }, console: { warn: (m) => warnings.push(m) } }
   vm.createContext(sandbox)
   vm.runInContext(clientSource, sandbox)
   const plugin = entry.factory()
-  const calls = { languages: [], registrations: [], effects: 0 }
+  const calls = { languages: [], registrations: [], effects: 0, warnings }
   const ctx = {
     effect(fn, label) { calls.effects++; assert.match(label, /^dsh-locale-pt-br: /); return fn() },
     locale: {
-      addLanguage(def) { calls.languages.push(def); return () => {} },
+      addLanguage(def) {
+        // dsh's own message for a duplicate definition.
+        if (taken) throw new Error(`locale "${def.id}" is already registered`)
+        calls.languages.push(def)
+        return () => {}
+      },
       register(ns, lang, dict) { calls.registrations.push({ ns, lang, dict }); return () => {} },
     },
   }
@@ -43,6 +50,15 @@ test('the bundle registers pt-BR and every namespace, each as an owned effect', 
   assert.deepEqual(calls.registrations.map((r) => r.ns), Object.keys(dictionaries))
   for (const r of calls.registrations) assert.equal(r.lang, 'pt-BR')
   assert.equal(calls.effects, 1 + calls.registrations.length)
+})
+
+test('another plugin already providing pt-BR leaves this pack inactive, not failed', () => {
+  const { calls } = loadClient({ taken: true })
+  assert.deepEqual(calls.languages, [])
+  assert.deepEqual(calls.registrations, [])
+  assert.equal(calls.effects, 1)
+  assert.equal(calls.warnings.length, 1)
+  assert.match(calls.warnings[0], /already provides pt-BR/)
 })
 
 test('every English string of the pinned dsh has a pt-BR translation', () => {
