@@ -6,7 +6,6 @@
   "condition": "Desativado quando",
   "conditionalTag": "Condicional",
   "configuration": "Configuração",
-  "countUnit": "plugins",
   "disabledTag": "Desativado",
   "empty": "Nenhum plugin disponível.",
   "emptySearch": "Nenhum plugin correspondente.",
@@ -14,7 +13,6 @@
   "enabledTag": "Ativado",
   "error": "Os plugins estão temporariamente indisponíveis.",
   "failed": "Falha ao iniciar",
-  "failedCountLabel": "com falha",
   "failedTag": "Falhou",
   "fromPreset": "De",
   "globalSubtitle": "Compartilhados pelo sistema e por todas as sessões",
@@ -37,6 +35,5 @@
   "switcherLabel": "Escolha a predefinição de agente a inspecionar",
   "tab": "Lista de plugins",
   "unloading": "Descarregando",
-  "unobserved": "Parado",
-  "viewInPreset": "Ver no grupo da predefinição"
+  "unobserved": "Parado"
 }

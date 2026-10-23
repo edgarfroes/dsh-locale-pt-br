@@ -1,6 +1,10 @@
 {
   "candidate.noCwd": "(sem cwd)",
   "crumb.root": "Workspace",
+  "fileOpen.close": "Fechar",
+  "fileOpen.failed": "Não foi possível abrir “{path}”. Tente novamente ou feche esta mensagem.",
+  "fileOpen.retry": "Tentar novamente",
+  "fileOpen.title": "Não foi possível abrir o arquivo",
   "section.files": "Arquivos e pastas",
   "section.sessions": "Sessões",
   "section.subagents": "Subagentes",

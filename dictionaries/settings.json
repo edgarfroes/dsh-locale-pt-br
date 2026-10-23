@@ -28,8 +28,16 @@
   "developerTools.title": "Ferramentas de desenvolvedor",
   "general.currentVersion": "Versão atual: {version}",
   "general.nav": "Geral",
+  "hostRelease.description": "A versão do serviço mudou. Esta página pausou as atualizações ao vivo; recarregue para carregar a nova versão.",
+  "hostRelease.later": "Agora não",
+  "hostRelease.page": "Página",
+  "hostRelease.reload": "Recarregar para carregar a nova versão",
+  "hostRelease.service": "Serviço",
+  "hostRelease.title": "A versão do serviço mudou",
+  "hostRelease.unknown": "Desconhecida",
   "openDocument": "Abrir arquivo de configuração",
   "openDocument.error": "Não foi possível abrir o arquivo de configuração",
+  "shortcut.open": "Abrir configurações",
   "title": "Configurações",
   "trigger": "Configurações"
 }

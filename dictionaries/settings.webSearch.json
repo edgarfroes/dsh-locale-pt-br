@@ -5,7 +5,10 @@
   "apiKeyUnset": "Nenhuma chave configurada; a busca fica indisponível até que uma seja definida.",
   "baseUrl": "Endpoint",
   "baseUrlHint": "Deixe em branco para usar o padrão do provedor.",
+  "count": "Resultados por busca",
+  "countHint": "Resultados retornados por consulta: um inteiro de 1 a 50, padrão 10. Isso controla a quantidade de resultados, não de chamadas de busca. web_search não guarda mais fontes que o próprio limite de resultados.",
   "description": "Configure o provedor de busca da DeepSeek.",
+  "invalidCount": "Digite um inteiro de 1 a 50 ou deixe em branco para usar o padrão.",
   "invalidNumber": "Digite um número ou deixe em branco para usar o padrão.",
   "maxUses": "Máximo de buscas por requisição",
   "maxUsesHint": "Quantas vezes uma requisição pode buscar antes de precisar responder.",
@@ -15,6 +18,12 @@
   "save": "Salvar",
   "saveFailed": "A implantação não aceitou estes valores; eles foram mantidos para você corrigir.",
   "saving": "Salvando…",
+  "searchApiBaseUrl": "URL base da API de Search / Fetch",
+  "searchApiBaseUrlHint": "Inclua o prefixo da API, como https://api.deepseek.com/v1/tools. O provedor acrescenta /search ou /fetch. Deixe em branco para restaurar o padrão.",
+  "searchGuide": "Guia de Search e Fetch",
+  "searchGuideUrl": "https://api-docs.deepseek.com/guides/search",
   "title": "Busca na web",
-  "unavailable": "Este plugin não está carregado, então não pode ser configurado agora."
+  "unavailable": "Este plugin não está carregado, então não pode ser configurado agora.",
+  "useSearchApi": "Usar a nova API de busca na web",
+  "useSearchApiHint": "Desligado por padrão: a busca roda pelo DeepSeek Messages. Para os recursos e preços da nova API de busca na web, veja o "
 }

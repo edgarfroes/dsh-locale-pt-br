@@ -27,6 +27,7 @@
   "status.stopping": "parando",
   "terminal.collapse": "Recolher",
   "terminal.collapseAria": "Recolher saída",
+  "terminal.commandLine": "Linha de comando {n}",
   "terminal.copied": "Copiado",
   "terminal.copy": "Copiar",
   "terminal.done": "concluído",

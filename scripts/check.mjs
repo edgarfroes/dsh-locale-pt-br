@@ -28,9 +28,10 @@ export function compare(en, pt) {
   const placeholderMismatch = []
   for (const [ns, dict] of Object.entries(en)) {
     for (const [key, source] of Object.entries(dict)) {
-      // An empty English string (a layout slot such as a shared prefix) needs
-      // no translation: the English fallback is already right.
-      if (source === '') continue
+      // An empty or whitespace-only English string (a layout slot such as a
+      // shared prefix or a separator) needs no translation: the English
+      // fallback is already right.
+      if (source.trim() === '') continue
       const text = pt[ns]?.[key]
       if (text === undefined) { missing.push(`${ns}:${key}`); continue }
       if (text.trim() === '') { empty.push(`${ns}:${key}`); continue }
@@ -40,7 +41,7 @@ export function compare(en, pt) {
   for (const [ns, dict] of Object.entries(pt)) {
     for (const key of Object.keys(dict)) if (en[ns]?.[key] === undefined) stale.push(`${ns}:${key}`)
   }
-  const total = Object.values(en).reduce((n, d) => n + Object.values(d).filter((s) => s !== '').length, 0)
+  const total = Object.values(en).reduce((n, d) => n + Object.values(d).filter((s) => s.trim() !== '').length, 0)
   return { total, translated: total - missing.length, missing, stale, empty, placeholderMismatch }
 }
 

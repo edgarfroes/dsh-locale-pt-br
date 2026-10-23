@@ -22,6 +22,7 @@
   "sandbox.disable": "Desativar restrições de sandbox",
   "sandbox.enable": "Restaurar restrições de sandbox",
   "sandbox.warning": "As restrições de sandbox estão desativadas; a página pode navegar o aplicativo principal e usar downloads, diálogos modais e bloqueio de entrada.",
+  "shortcut.noSession": "Abra uma sessão primeiro",
   "start": "Digite um endereço HTTP(S) para começar a navegar",
   "type.label": "Navegador"
 }

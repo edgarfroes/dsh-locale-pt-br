@@ -8,6 +8,7 @@
   "changes.expandAria": "Mostrar todos os {count} arquivos alterados",
   "changes.openReview": "Revisar as mudanças deste turno na barra lateral",
   "changes.oversized": "grande demais",
+  "changes.singleTitle": "Editou {name}",
   "changes.title": "{count} arquivos editados",
   "changes.viewDiff": "Ver mudanças em {name}",
   "diff.binary": "Arquivo binário; não é possível mostrar as mudanças",
@@ -54,6 +55,7 @@
   "row.error": "Falha na entrega",
   "row.inspect": "Inspecionar chamada",
   "row.ok": "Entregue",
+  "row.preparing": "Preparando arquivos entregues",
   "row.running": "Entregando",
   "row.stopped": "Interrompido",
   "row.title": "Apresentar arquivos"

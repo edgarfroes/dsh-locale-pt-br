@@ -23,6 +23,7 @@
   "shell": "Escolher shell",
   "shellEmpty": "Nenhum shell disponível",
   "shellLoading": "Carregando shells…",
+  "shortcut.noSession": "Selecione uma sessão primeiro",
   "terminalLimit": "O limite de terminais foi atingido. Feche os terminais sem uso e tente novamente. Terminais encerrados também contam para o limite.",
   "title": "Terminal",
   "unavailable": "Indisponível"

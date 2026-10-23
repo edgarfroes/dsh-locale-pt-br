@@ -38,5 +38,6 @@
   "submit": "Enviar",
   "submitting": "Enviando…",
   "truncated": "Truncado",
-  "unknown": "Desconhecido"
+  "unknown": "Desconhecido",
+  "workspace.defaultName": "Workspace padrão"
 }

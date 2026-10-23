@@ -6,7 +6,7 @@ Pacote de idioma **Português (Brasil)** para a interface web do
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh).
 Adiciona *Português (Brasil)* em **Configurações → Geral → Idioma**.
 
-- Todas as 2072 strings da interface do dsh 0.1.7-alpha.2 traduzidas (52 namespaces).
+- Todas as 2894 strings da interface do dsh 0.2.1-rc.3 traduzidas (63 namespaces).
 - Textos novos do dsh que ainda não estão traduzidos aparecem em inglês.
 - Navegadores em `pt-BR`, `pt-PT` ou `pt` escolhem o português automaticamente.
 - Não faz chamadas de rede nem de modelo e não usa o armazenamento do navegador:
@@ -18,13 +18,13 @@ Adiciona *Português (Brasil)* em **Configurações → Geral → Idioma**.
 Pegue o endereço do `.tgz` da [última versão](https://github.com/edgarfroes/dsh-locale-pt-br/releases/latest) e rode:
 
 ```bash
-dsh plugin --profile web add https://github.com/edgarfroes/dsh-locale-pt-br/releases/download/v0.1.1/dsh-locale-pt-br-0.1.1.tgz
+dsh plugin --profile web add https://github.com/edgarfroes/dsh-locale-pt-br/releases/download/v0.2.0/dsh-locale-pt-br-0.2.0.tgz
 ```
 
 Ou, na interface web, **Plugins → Adicionar plugin** e cole o mesmo endereço.
 Depois escolha *Português (Brasil)* em Configurações → Geral → Idioma.
 
-Versão do dsh testada: **0.1.7-alpha.2**.
+Versão do dsh testada: **0.2.1-rc.3**.
 
 ## Contribuir
 

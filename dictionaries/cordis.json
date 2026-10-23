@@ -1,6 +1,7 @@
 {
   "a11y.defining": "Definindo o plugin",
   "a11y.failed": "Falha na definição",
+  "a11y.preparing": "Preparando uma chamada de ferramenta Cordis",
   "a11y.stopped": "Definição interrompida",
   "action.approve": "Permitir",
   "action.approveOnce": "Permitir somente esta versão",

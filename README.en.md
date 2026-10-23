@@ -6,7 +6,7 @@
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh) Web UI.
 Adds *Português (Brasil)* to **Settings → General → Language**.
 
-- All 2072 UI strings of dsh 0.1.7-alpha.2 translated (52 namespaces).
+- All 2894 UI strings of dsh 0.2.1-rc.3 translated (63 namespaces).
 - New dsh strings that aren't translated yet show in English.
 - `pt-BR`, `pt-PT` and `pt` browsers pick Portuguese automatically.
 - No network calls, no model calls, no browser storage: it only registers the
@@ -18,13 +18,13 @@ Adds *Português (Brasil)* to **Settings → General → Language**.
 Take the `.tgz` URL from the [latest release](https://github.com/edgarfroes/dsh-locale-pt-br/releases/latest) and run:
 
 ```bash
-dsh plugin --profile web add https://github.com/edgarfroes/dsh-locale-pt-br/releases/download/v0.1.1/dsh-locale-pt-br-0.1.1.tgz
+dsh plugin --profile web add https://github.com/edgarfroes/dsh-locale-pt-br/releases/download/v0.2.0/dsh-locale-pt-br-0.2.0.tgz
 ```
 
 Or, in the Web UI, **Plugins → Add plugin** and paste the same URL. Then pick
 *Português (Brasil)* in Settings → General → Language.
 
-Tested dsh version: **0.1.7-alpha.2**.
+Tested dsh version: **0.2.1-rc.3**.
 
 ## Contributing
 

@@ -13,6 +13,7 @@
   "loading": "Lendo…",
   "noWorkspace": "Esta sessão não tem diretório de workspace.",
   "reload": "Recarregar",
+  "shortcut.noSession": "Selecione uma sessão primeiro",
   "truncated": "Itens demais; mostrando só uma parte.",
   "type.label": "Arquivos"
 }

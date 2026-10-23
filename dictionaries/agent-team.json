@@ -1,8 +1,9 @@
 {
   "blocked": "Bloqueada por dependências",
   "blockedBy": "Bloqueada por",
-  "close": "Fechar",
+  "current": "Chat atual",
   "empty": "Nenhuma tarefa compartilhada ainda",
+  "failure": "Registro de equipe salvo inválido: {message}",
   "loading": "Carregando equipe…",
   "memberStatus.failed": "Falhou",
   "memberStatus.inactive": "Inativo",
@@ -12,13 +13,15 @@
   "open": "Abrir conversa do colega",
   "owner": "Responsável",
   "ready": "Pronta",
-  "refresh": "Atualizar equipe",
   "roster": "Membros",
   "status.completed": "Concluída",
   "status.in_progress": "Em andamento",
   "status.pending": "Pendente",
+  "task.collapse": "Mostrar menos",
+  "task.expand": "Mostrar mais",
   "tasks": "Tarefas compartilhadas",
   "trigger": "Equipe de agentes",
+  "unavailable": "A equipe não está disponível",
   "unowned": "Sem responsável",
   "writeScopes": "Escopos de escrita"
 }

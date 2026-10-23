@@ -108,6 +108,8 @@ export async function extractBundle(file) {
     console: { log() {}, warn() {}, error() {}, info() {}, debug() {} },
     setTimeout: () => 0, clearTimeout: () => {}, setInterval: () => 0, clearInterval: () => {}, queueMicrotask: () => {},
     URL, URLSearchParams, TextEncoder, TextDecoder, AbortController, structuredClone,
+    // Bundles that make ids at load time (dsh 0.2+) need real Web Crypto.
+    crypto: globalThis.crypto,
   }
   sandbox.globalThis = sandbox
   sandbox.self = sandbox

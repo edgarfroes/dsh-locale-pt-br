@@ -1,6 +1,6 @@
 {
   "name": "dsh-locale-pt-br",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Brazilian Portuguese (pt-BR) language pack for the DeepSeek Harness Web UI: adds Português (Brasil) to Settings → General → Language.",
   "license": "MIT",
   "type": "module",

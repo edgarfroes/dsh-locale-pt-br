@@ -34,11 +34,14 @@
   "app.xcode": "Xcode",
   "app.zed": "Zed",
   "open.title": "Abrir no {app}",
+  "open.tooltip": "Abrir localmente",
   "path.appDefault": "{app} (padrão)",
   "path.appsError": "Não foi possível carregar os aplicativos",
   "path.more": "Outras formas de abrir",
   "path.open": "Abrir",
   "path.openError": "Não foi possível abrir. Tente novamente.",
   "path.reveal": "Mostrar local do arquivo",
-  "path.revealError": "Não foi possível mostrar o local do arquivo. Tente novamente."
+  "path.revealError": "Não foi possível mostrar o local do arquivo. Tente novamente.",
+  "shortcut.busy": "Abrindo workspace",
+  "shortcut.unavailable": "Workspace atual ou aplicativo local indisponível"
 }
